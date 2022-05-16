@@ -1,2 +1,0 @@
-# TEORIAJAVA
-JavaTeoria
