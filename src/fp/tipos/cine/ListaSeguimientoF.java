@@ -68,7 +68,7 @@ public class ListaSeguimientoF extends ListaSeguimientoA implements ListaSeguimi
 	/*************************** Ejercicios finales ******************************************/
 	
 	//marca media por año de estreno
-	public Map<Integer, Double> marcaMediaPorAñoEstreno(){
+	public Map<Integer, Double> marcaMediaPorA�oEstreno(){
 		return peliculas.stream().collect(Collectors.groupingBy(p -> p.pelicula().fechaEstreno().getYear(), 
 				Collectors.averagingLong(p -> p.marca().toMinutes())));
 	}
